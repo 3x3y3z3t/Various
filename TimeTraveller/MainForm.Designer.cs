@@ -70,6 +70,7 @@ namespace TimeTraveller
             // 
             numHours.Location = new Point(87, 12);
             numHours.Maximum = new decimal(new int[] { 32768, 0, 0, 0 });
+            numHours.Minimum = new decimal(new int[] { 32768, 0, 0, int.MinValue });
             numHours.Name = "numHours";
             numHours.Size = new Size(100, 23);
             numHours.TabIndex = 1;
